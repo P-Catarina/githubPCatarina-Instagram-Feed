@@ -1,30 +1,24 @@
-* {
-    border: 1px dashed green;
-}
-
-body{
+body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flexbox;
     max-width: 700px;
     margin: auto;
 }
 
-#header{
-    background: white;
-    padding: 10px;
-}
-
-#feed {
-}
-
 .post  {
     margin: auto;
-    max-width: 700px;
     margin-top: 80px;
 }
 
+.post p {
+    padding: 0px 25px;
+}
+
+
 .title {
     float: left;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .tag {
@@ -33,5 +27,5 @@ body{
 }
 
 .photo {
-
+    width: 700px;
 }
